@@ -4,8 +4,8 @@ apt-run: &ref_0
     apt-get update
 
     apt-get -y install meson desktop-file-utils appstream-util libglib2.0-bin
-    gettext python3 libgee-0.8-dev libglib2.0-dev libgtk-3-dev valac git
-    openssh-client
+    gettext python3 libgee-0.8-dev libglib2.0-dev libgtk-3-dev
+    libgit2-glib-1.0-dev valac git openssh-client
 version: 2
 jobs:
   build_eos_stable:
